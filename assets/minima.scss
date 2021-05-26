@@ -56,7 +56,8 @@ body {
 .bg-img {
   position: absolute;
   z-index: -100;
-  background-image: url(/rubyconftw2021.github.io/assets/bg.svg);
+  // background-image: url(/rubyconftw2021.github.io/assets/bg.svg);
+  background-image: url(/assets/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,11 +100,92 @@ li {
 .home-text {
   position: absolute;
   top: 50%;
-  // left: 10%;
+  // font-weight: 300;
+  font-size: 25px;
 }
 
 @media (min-width: 1400px) {
   .container {
     max-width: 1200px !important;
   }
+}
+
+.block-title{
+  font-size: 28px;
+}
+
+.news-block{
+  color: #730000 !important;
+  border-top: solid 1px;
+}
+.news-content{
+  background-color: #fad9c7;
+}
+.news-content:hover{
+  cursor: pointer;
+  background-color: rgba(165, 140, 140, 0.315);
+}
+
+.px-7{
+  padding-left: 7rem;
+  padding-right: 7rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.talk-title,.talk-day{
+  font-weight: 500;
+  font-size: 20px;
+}
+.talk-day{
+  font-weight: bold;
+}
+
+.schedule-break{
+  color: #6e4f4f!important;
+  // background-color: rgba(255, 255, 255, 0.3);
+}
+
+.venue-text{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.addr, .sponsors{
+  font-weight: 340;
+}
+
+.btn-primary{
+  background-color: #fff0!important;
+  border: 1px solid #730000!important;
+  color: #730000!important;
+}
+
+.btn-primary:hover{
+  background-color: #730000!important;
+  border: 1px solid #730000!important;
+  color: #fad9c7!important;
+}
+
+button:focus {
+  box-shadow: none!important;
+}
+
+.sponsors{
+  font-size: 20px;
+}
+
+.speaker-box{
+  margin-bottom: 3rem!important;
+  height: 250px;
+  transition: all 0.75s;
+}
+
+.speaker-box >img{
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.speaker-box:hover{
+  // border: 10px solid #fff;
+  margin-top: -1rem!important; 
 }

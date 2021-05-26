@@ -1,0 +1,181 @@
+- id: 1
+  day: 1
+  time: 10:00 am
+  end: 10:05 am
+  title: "Opening"
+
+- id: 2
+  day: 1
+  time: 10:05 am
+  end: 10:45 am
+  agenda: 1
+  subtitle: "Rails 容器化最佳實踐"
+  title_main: "Dockerize Rails Best Practice"
+  speaker: "Cindy Liu"
+  lang: "zh"
+
+- id: 3
+  day: 1
+  time: 10:45 am
+  end: 10:50 am
+  title: Break
+
+- id: 4
+  day: 1
+  time: 10:50 am
+  end: 11:30 am
+  agenda: 2
+  title_main: "Event Driven Concurrency using the Ruby Fiber Scheduler"
+  speaker: "Samuel Williams"
+  lang: 'en'
+
+- id: 5
+  day: 1
+  time: 11:30 am
+  end: 11:35 am
+  title: Break
+
+- id: 6
+  day: 1
+  time: 11:35 am
+  end: 12:15 pm
+  agenda: 3
+  subtitle: "三寶 GO - 不收費、不收個資、不告人的交通違規檢舉系統"
+  title_main: "Sanbao GO, A Free Traffic Violation Reporting System that Concerns Privacy"
+  speaker: "tonytonyjan"
+  lang: "zh"
+
+- id: 7
+  day: 1
+  time: 12:15 pm
+  end: 13:30 pm
+  title: Lunch Break
+
+- id: 8
+  day: 1
+  time: 13:30 pm
+  end: 14:10 pm
+  agenda: 4
+  subtitle: "Rina: 聊天機器人體驗型遊戲引擎 & 實際案例分享"
+  title_main: "Rina: Chatbot Game Engine for Real-life Adventure Games & Case Study"
+  speaker: "Albert Song"
+  lang: 'en'
+
+- id: 9
+  day: 1
+  time: 14:10 pm
+  end: 14:20 pm
+  title: Break
+
+- id: 10
+  day: 1
+  time: 14:20 pm
+  end: 15:00 pm
+  agenda: 5
+  subtitle: "從 Ruby 寫到 Python，遊戲設計師到工程師的職場生存術"
+  title_main: "From Ruby To Python, From Game Designer To Software Developer"
+  speaker: "Jimmy Wu"
+  lang: "zh"
+
+- id: 11
+  day: 1
+  time: 15:00 pm
+  end: 15:10 pm
+  title: Break
+
+- id: 12
+  day: 1
+  time: 15:10 pm
+  end: 15:50 pm
+  agenda: 6
+  subtitle: "Ruby on Rails 老司機帶飛"
+  title_main: "An experienced Rails driver takes you fly"
+  speaker: "ihower"
+  lang: "zh"
+
+- id: 13
+  day: 2
+  time: 10:00 am
+  end: 10:40 am
+  agenda: 7
+  subtitle: "用 Python 來執行 Ruby 的我，與撿到的 Puma 和 Rack"
+  title_main: "Intro of Ruby CGI programming, Rack and Puma"
+  speaker: "Meng-Ying Tsai"
+  lang: "zh"
+
+- id: 14
+  day: 2
+  time: 10:40 am
+  end: 10:45 am
+  title: Break
+
+- id: 15
+  day: 2
+  time: 10:45 am
+  end: 11:25 am
+  agenda: 11
+  title_main: "TBA"
+  speaker: "教授預留 slot"
+
+- id: 16
+  day: 2
+  time: 11:25 am
+  end: 11:30 am
+  title: Break
+
+- id: 17
+  day: 2
+  time: 11:30 am
+  end: 12:30 pm
+  agenda: Panel
+  subtitle: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
+  title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
+  speaker: "范聖佑"
+
+- id: 18
+  day: 2
+  time: 12:30 pm
+  end: 14:00 pm
+  title: Lunch Break
+
+- id: 19
+  day: 2
+  time: 14:00 pm
+  end: 14:40 pm
+  agenda: 8
+  subtitle: "用 mruby 來寫跨平台工具"
+  title_main: "Making Multi-platform Tool With mruby"
+  speaker: "John Lin"
+  lang: 'en'
+
+- id: 20
+  day: 2
+  time: 14:40 pm
+  end: 14:50 pm
+  title: Break
+
+- id: 21
+  day: 2
+  time: 14:50 pm
+  end: 15:30 pm
+  agenda: 9
+  subtitle: "2021 年 Ruby 高並行程式指北"
+  title_main: "Ruby High Concurrent Programming in 2021"
+  speaker: "Delton Ding"
+  lang: "zh"
+
+- id: 22
+  day: 2
+  time: 15:30 pm
+  end: 15:40 pm
+  title: Break
+
+- id: 23
+  day: 2
+  time: 15:40 pm
+  end: 16:20 pm
+  agenda: 10
+  subtitle: "以 LINE BOT 和爬蟲聊寫程式技巧中的「巧」"
+  title_main: "Talk the \"tricks\" of programming skill with the LINE Bot and the crawl"
+  speaker: "蒼時弦也"
+  lang: "zh"
