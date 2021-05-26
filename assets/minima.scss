@@ -57,8 +57,7 @@ body {
   position: absolute !important;
 }
 #bg {
-  background-image: url(/rubyconftw2021.github.io/assets/bg.svg);
-  // background-image: url(/assets/bg.svg);
+  background-image: url(bg.svg);
   z-index: -100;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,12 +66,12 @@ body {
 }
 
 #fireworks {
+  z-index: -100;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   resize: both;
-  // background-image: url(/assets/bg-fireworks.svg);
-  background-image: url(/rubyconftw2021.github.io/assets/bg-fireworks.svg);
+  background-image: url(bg-fireworks.svg);
   -webkit-animation-name: fireworks;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
@@ -105,8 +104,7 @@ body {
   background-size: cover;
   // background-position: center;
   resize: both;
-  // background-image: url(/assets/bg-cloud1.svg);
-  background-image: url(/rubyconftw2021.github.io/assets/bg-cloud1.svg);
+  background-image: url(bg-cloud1.svg);
   -webkit-animation-name: cloud1;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
@@ -139,8 +137,7 @@ body {
   background-size: cover;
   background-position: center;
   resize: both;
-  background-image: url(/rubyconftw2021.github.io/assets/bg-cloud2.svg);
-  // background-image: url(/assets/bg-cloud2.svg);
+  background-image: url(bg-cloud2.svg);
   -webkit-animation-name: cloud2;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
@@ -336,8 +333,8 @@ button:focus {
   }
 
   .bg-img {
-    background-image: url(/rubyconftw2021.github.io/assets/bgm.svg)!important;
-    // background-image: url(/assets/bgm.svg)!important;
+
+    background-image: url(bgm.svg)!important;
     background-size: 180%!important;
   }
 
@@ -346,8 +343,8 @@ button:focus {
   }
 
   #bgmb {
-    background-image: url(/rubyconftw2021.github.io/assets/bgmb.svg);
-    // background-image: url(/assets/bgmb.svg);
+
+    background-image: url(bgmb.svg);
     position: absolute;
     z-index: -100;
     background-repeat: no-repeat;
