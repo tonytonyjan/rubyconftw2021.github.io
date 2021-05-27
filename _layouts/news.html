@@ -16,35 +16,24 @@
 </head>
 
 <body style="background-color: #fad9c7;">
-    <div class='bg-img w-100 h-100' id='bg'></div>
-    <div class='bg-img w-100 h-100' id='fireworks'></div>
-    <div class='bg-img w-100 h-100' id='cloud1'></div>
-    <div class='bg-img w-100 h-100' id='cloud2'></div>
-    <div class='bg-img w-100 h-100' id='bgmb'></div>
 
     <nav class="nav-grad sticky-top py-5">
         <div class=" container justify-content-around">
             <div id="navbarNav" class="collapse navbar-collapse d-flex flex-row justify-content-around w-100">
-                    <div><a class="navlink" href="#News">News</a></div>
-                    <div><a class="navlink" href="#Speakers">Speakers</a></div>
-                    <div><a class="navlink" href="#Schedule">Schedule</a></div>
-                    <div><a class="navlink" href="#Venue">Venue</a></div>
-                    <div><a class="navlink" href="#Sponsors">Sponsors</a></div>
+                <div><a class="navlink" href="{{site.baseurl}}/#News">News</a></div>
+                <div><a class="navlink" href="{{site.baseurl}}/#Speakers">Speakers</a></div>
+                <div><a class="navlink" href="{{site.baseurl}}/#Schedule">Schedule</a></div>
+                <div><a class="navlink" href="{{site.baseurl}}/#Venue">Venue</a></div>
+                <div><a class="navlink" href="{{site.baseurl}}/#Sponsors">Sponsors</a></div>
             </div>
         </div>
     </nav>
 
-    <div class='container w-100 h-75 d-flex justify-content-center'>
-        <img src="/assets/logo_red.svg" height="500rem" />
-        <div class='brown-text home-text w-100 container'>
-            <div class='lh-lg' style="font-size: 40px;">Jul 31st ~ Aug 1st</div>
-            <div>TR 214 AAEON Building</div>
-            <div>NTUST, Taiwan</div>
-        </div>
+
+    <div class="container d-flex justify-content-center flex-column align-items-center">
+        <div><h3 class="brown-text" style="font-family: 'Malayalam MN';font-weight: bold;font-size: 28px;">{{ page.title }}</h3></div>
+        <div class="w-100 news-content deco1">{{ content }}</div>
     </div>
-
-
-    {{ content }}
 
 
     <footer class="h-card d-flex justify-content-around" style='padding: 30px 0;'>
