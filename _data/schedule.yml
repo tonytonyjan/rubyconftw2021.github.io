@@ -77,17 +77,17 @@
   speaker: "Albert Song"
   lang: 'en'
   description_en: |-
-    Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game ""1337 Operation"".
+    Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game "1337 Operation".
     Related report: https://www.ithome.com.tw/news/144252
     We will release the source code for this project under MIT license alongside this talk.
-    In the game ""1337 Operation"", the player is an FBI agent investigating a major ransomware attack.
+    In the game "1337 Operation", the player is an FBI agent investigating a major ransomware attack.
     Though intelligence gathering & analysis, the player will identify the related hacking group, and the location of the suspect.
     At the finale, the player and other FBI agents will storm the residence of the suspect, using a micro bomb to break open the door and arrest the suspect.
     The whole process is captured by cameras, a fictional news clip would be automatically sent to the player as a souvenir.
     We've included various easter egg in the game.
     The player could check his/her process at the progress monitor on our booth, and compete with other players.
     In this talk, we will introduce various feature of Rina, e.g., context-aware dialogue, achievements, rankings, message speed adjustments and async external service integration.
-    We will discuss our design and implementation. Using ""1337 Operation"" as our modal case, we will introduce how each feature could be utilized.
+    We will discuss our design and implementation. Using "1337 Operation" as our modal case, we will introduce how each feature could be utilized.
     Besides Rina, we will also share our experience on composing the story of the game, making interactive props, and how we connect physical devices with the game.
     We hope after our talk, you can also make your own real-life adventure game driven by chatbot, with ease."
   description_zh: |-
@@ -189,8 +189,9 @@
   time: 10:45 am
   end: 11:25 am
   agenda: 11
-  title_main: "TBA"
-  speaker: "教授預留 slot"
+  title_main: "Ruby in the Classroom: Going off the Rails with Roda and Sequel"
+  speaker: "Soumya Ray"
+  lang: 'en'
 
 - id: 16
   day: 2
@@ -270,4 +271,22 @@
 
 - id: 22
   day: 2
-  time: 15:30
+  time: 15:30 pm
+  end: 15:40 pm
+  title: Break
+
+- id: 23
+  day: 2
+  time: 15:40 pm
+  end: 16:20 pm
+  agenda: 9
+  subtitle: "以 LINE BOT 和爬蟲聊寫程式技巧中的「巧」"
+  title_main: "Talk the \"tricks\" of programming skill with the LINE Bot and the crawl"
+  speaker: "蒼時弦也"
+  lang: "zh"
+  description_en: |-
+    When I write some code, I usually think about "can I do it better?" since my over 10 years of programming life. I use Ruby to write a simple LINE Bot with many Ruby language features to help me to find new movies as I need. Therefore I think about how can we use the "tricks" to let others feel the programming is very "simple" after we learned the programming skills.
+    Let me show the programming tricks to you, it is not easy for everyone and needs a lot of practice and programming language knowledge, but it is not the reason to stop us.
+  description_zh: |-
+    接觸程式已經超過十年，每一次的在撰寫的時候都會思考「可以更好嗎？」前陣子因為需要快速知道最近有什麼電影可以看，因此用 Ruby 寫了一個很簡單的 LINE Bot 來輔助，而裡面運用了很多 Ruby 的語言特性。當我們掌握技巧中的「技能」部分就能夠順利寫出可以運作的程式，但是又該如何「巧妙」的應用語言的特性來實作，進而寫出讓人感到「原來可以這麼簡單」的程式。
+    雖然這不是可以簡單做到的事情，並且需要熟悉自己常用語言的特性跟大量的練習，不過還是讓我們來看看在寫程式這一個技巧之中，能做到怎樣的程度吧！

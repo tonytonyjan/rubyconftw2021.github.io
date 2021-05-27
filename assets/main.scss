@@ -1,7 +1,9 @@
-
 body {
   background-color: #fad9c7 !important;
-  // e53c38
+  /* prevent bootstrap add overflow and padding when open modals*/
+  overflow-y: scroll !important;
+  padding-right: 0 !important;
+  // color: #7A6262!important;
 }
 
 .bg-img {
@@ -125,8 +127,9 @@ body {
     rgba(246, 189, 173, 0) 90%,
     rgba(250, 217, 199, 0) 100%
   );
+  font-family: "Malayalam MN";
 }
-
+.block-title,
 .brown-text,
 .navlink {
   color: #730000 !important;
@@ -152,19 +155,19 @@ li {
 .home-text {
   position: absolute;
   top: 50%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Malayalam MN";
   font-size: 25px;
 }
 
-
-footer{
-  background:  linear-gradient(
+footer {
+  font-family: "Malayalam MN";
+  background: linear-gradient(
     0deg,
     rgba(229, 60, 56, 1) 0%,
     rgba(229, 60, 56, 0.3) 50%,
     rgba(246, 189, 173, 0) 90%,
     rgba(250, 217, 199, 0) 100%
-  )!important;
+  ) !important;
 }
 
 @media (min-width: 1400px) {
@@ -177,21 +180,37 @@ footer{
   font-size: 28px;
   padding-top: 7rem !important;
   padding-bottom: 3rem !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Malayalam MN";
 }
 
 .content-block {
+  font-family: "Malayalam MN";
   color: #730000 !important;
   border-top: solid 1px;
 }
-.agenda-content,
-.news-content {
-  background-color: #fad9c7;
+
+.agenda-content {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .agenda-content:hover,
 .news-content:hover {
   cursor: pointer;
-  background-color: rgba(207, 170, 170, 0.315);
+  // background-color: rgba(255, 255, 255, 0.5);
+  color: #d9917c !important;
+  border-color: #730000;
+}
+
+#schedule-section {
+  background-color: #ffede8;
+  border-radius: 3rem;
+  color: #a66f5e;
+}
+
+.badge {
+  background-color: #d9917c;
+  margin-top: 1rem;
+  font-weight: 400 !important;
+  text-transform: uppercase;
 }
 
 .px-7 {
@@ -210,7 +229,6 @@ footer{
 
 .schedule-break {
   color: #6e4f4f !important;
-  // background-color: rgba(255, 255, 255, 0.3);
 }
 
 .venue-text {
@@ -244,8 +262,11 @@ button:focus {
 }
 
 .speaker-box {
+  cursor: pointer;
   margin: 0rem 3rem 3rem !important;
+  transition: all 0.5s !important;
   height: 250px;
+  font-family: "Malayalam MN";
 }
 
 .speaker-box > img {
@@ -254,8 +275,7 @@ button:focus {
 }
 
 .speaker-box:hover {
-  transition: all 0.75s !important;
-  margin-top: -1rem !important;
+  margin-top: -0.5rem !important;
   // border: 1px solid #fff;
 }
 
@@ -267,11 +287,25 @@ button:focus {
 }
 
 .venue-flex {
-  flex-wrap: nowrap !important;
+  display: flex;
+  flex-direction: row;
 }
+
 .venue-flex > div:nth-child(1) {
-  width: 20rem !important;
-  margin-right: 3rem;
+  width: 50%;
+}
+
+#schedule-section > div.venue-flex.align-items-center > div.d-flex.flex-column{
+  margin-left: 3rem;
+}
+
+.modal-content{
+  border-radius: 3rem!important;
+}
+
+.modal-body > div > a > img {
+  width: 95% !important;
+  height: auto;
 }
 
 @media only screen and (max-width: 767px) {
@@ -283,18 +317,18 @@ button:focus {
     height: 20rem;
   }
 
-  .bg-img {
-
-    background-image: url(bgm.svg)!important;
-    background-size: 180%!important;
+  #bg {
+    background-image: url(bgm.svg) !important;
+    background-size: 180% !important;
   }
 
-  #fireworks,#cloud1,#cloud2{
-    background-image: none!important;
+  #fireworks,
+  #cloud1,
+  #cloud2 {
+    background-image: none !important;
   }
 
   #bgmb {
-
     background-image: url(bgmb.svg);
     position: absolute;
     z-index: -100;
@@ -405,5 +439,25 @@ button:focus {
 
   body > footer > div:nth-child(2) {
     padding: 2rem 0 !important;
+  }
+
+  .modal-dialog {
+    max-width: 300px !important;
+    max-height: 700px !important;
+  }
+
+  .modal.show {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .venue-flex {
+    flex-direction: column !important;
+  }
+  .venue-flex > div:nth-child(1) {
+    width: 100%;
+  }
+  #schedule-section > div.venue-flex.align-items-center > div.d-flex.flex-column{
+    margin-left: 0!important;
   }
 }
