@@ -263,7 +263,8 @@ footer {
   font-weight: bold;
 }
 
-.schedule-break,.addr {
+.schedule-break,
+.addr {
   color: #6e4f4f !important;
 }
 
@@ -344,6 +345,17 @@ button:focus {
   font-family: "Malayalam MN";
 }
 
+#cocModal > div > div > div.modal-body,
+#teamModal > div > div > div.modal-body {
+  background-image: none !important;
+}
+
+#teamModal > div > div > div.modal-body > h4 {
+  background-image: url(deco3.svg) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .modal-body > div > div.col-lg-7 {
   padding-left: 2.5rem;
   margin: 2rem auto;
@@ -356,6 +368,11 @@ button:focus {
   background-position: center;
   background-size: cover;
 }
+
+body > footer > div:nth-child(2) > li{
+  cursor: pointer;
+}
+
 
 @media only screen and (max-width: 767px) {
   body {
@@ -485,7 +502,7 @@ button:focus {
     flex-direction: column !important;
     padding: 0 2rem 5rem !important;
     font-family: "Malayalam MN";
-    background: url(deco3.svg);
+    background: url(footer-m.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 0;
@@ -497,7 +514,6 @@ button:focus {
 
   .modal-dialog {
     max-width: 350px !important;
-    //   max-height: 700px !important;
   }
 
   .modal-body {
@@ -521,7 +537,8 @@ button:focus {
     margin-left: 0 !important;
   }
 
-  .deco1,.deco2,
+  .deco1,
+  .deco2,
   #speaker-container,
   #schedule-section {
     background-image: none !important;
@@ -539,5 +556,15 @@ button:focus {
     padding-left: 1rem;
     padding-right: 1rem;
     border-left: none;
+  }
+
+  #teamModal > div > div > div.modal-body > div {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  #teamModal > div > div > div.modal-body > div > div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
