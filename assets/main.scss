@@ -344,6 +344,10 @@ button:focus {
   font-family: "Malayalam MN";
 }
 
+#cocModal > div > div > div.modal-body{
+  background-image: none!important;
+}
+
 .modal-body > div > div.col-lg-7 {
   padding-left: 2.5rem;
   margin: 2rem auto;
@@ -491,6 +495,7 @@ button:focus {
     background-position: 0 0;
   }
 
+
   body > footer > div:nth-child(2) {
     padding: 2rem 0 !important;
   }
@@ -539,5 +544,15 @@ button:focus {
     padding-left: 1rem;
     padding-right: 1rem;
     border-left: none;
+  }
+
+  #teamModal > div > div > div.modal-body > div{
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+  }
+
+  #teamModal > div > div > div.modal-body > div >div{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
