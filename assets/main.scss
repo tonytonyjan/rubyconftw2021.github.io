@@ -157,21 +157,19 @@ body {
   background-size: 100%;
   width: 100% !important;
 }
-#schedule {
-  padding-top: 10rem!important;
+#Schedule {
+  padding-top: 10rem !important;
   background-image: url(deco-schedule.svg);
   background-position: center;
   background-size: 100%;
   background-size: 1;
-  /* position: absolute; */
   width: 100% !important;
-  /* height: 30rem !important; */
   background-repeat: no-repeat;
 }
-
-li {
+body > footer > div:nth-child(2),body > footer > div:nth-child(3) {
   color: #730000;
   font-weight: 500;
+  list-style-type: none;
 }
 
 a,
@@ -179,10 +177,6 @@ a:hover {
   text-decoration: none !important;
   cursor: pointer;
   color: #730000 !important;
-}
-
-li {
-  list-style-type: none;
 }
 
 .home-text {
@@ -311,7 +305,7 @@ button:focus {
   font-family: "Malayalam MN";
 }
 
-.speaker-box > img {
+.avatar {
   border-radius: 100%;
   border: 1px solid #000;
 }
@@ -350,9 +344,17 @@ button:focus {
   font-family: "Malayalam MN";
 }
 
-.modal-body > div > a > img {
-  width: 95% !important;
-  height: auto;
+.modal-body > div > div.col-lg-7 {
+  padding-left: 2.5rem;
+  margin: 2rem auto;
+  border-left: 1px solid #7a6262;
+}
+
+.modal-body {
+  background-image: url(deco-schedule1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 767px) {
@@ -489,8 +491,12 @@ button:focus {
   }
 
   .modal-dialog {
-    max-width: 300px !important;
-    max-height: 700px !important;
+    max-width: 350px !important;
+    //   max-height: 700px !important;
+  }
+
+  .modal-body {
+    flex-direction: column !important;
   }
 
   .modal.show {
@@ -508,5 +514,21 @@ button:focus {
     > div.venue-flex.align-items-center
     > div.d-flex.flex-column {
     margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 1000px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .modal-body > div > div.col-lg-7 {
+    // padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: none;
+    // border-top: 1px solid #7a6262;
   }
 }
