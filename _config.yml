@@ -51,8 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-collections: 
-  news:
-    output: true
-    permalink: /news/:path
