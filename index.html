@@ -40,7 +40,6 @@ layout: home
 <div class="container">
   <!-- Schedule Section -->
   <div class='px-7 pb-5 mt-5' id='schedule-section'>
-    <!-- <div id='schedule-container'></div> -->
     <div class='text-center block-title' id='Schedule'>Schedule</div>
     <div class='content-block py-4 d-flex row text-center'>
       <div class='col-2 text-center'>Start</div>
@@ -53,6 +52,7 @@ layout: home
       <div class='col-2 text-center'>Start</div>
       <div class='col-2 text-center'>End</div>
       <div class='col-8 text-center'>
+        <div class='mb-3'><img src='/assets/logo_black.svg' width="100" height="100"/></div>
         <div class='talk-title'>Prime Section @ BR105</div>
         <div style='margin-top:10px'>Yukihiro Matsumoto (Matz)</div>
       </div>
@@ -98,6 +98,7 @@ layout: home
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
       <div class='col-8 text-center'>
+        <div class='mb-3'><img src='{{each.avatar}}' width="100" height="100"/></div>
         <div class='talk-title'>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
         <div style='margin-top:10px'>{{each.speaker}}</div>
         <span class='badge'>{{each.lang}}</span>
@@ -156,6 +157,7 @@ layout: home
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
       <div class='col-8 text-center'>
+        <div class='mb-3'><img src='{{each.avatar}}' width="100" height="100"/></div>
         <div class='talk-title'>{{each.title_main}}{% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
         <div style='margin-top:10px'>{{each.speaker}}</div>
         <span class='badge'>{{each.lang}}</span>
