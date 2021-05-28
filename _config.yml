@@ -22,7 +22,7 @@ title: Ruby Conf Taiwan 2021
 email: contact@rubyconf.tw
 description: >- # this means to ignore newlines until "baseurl:"
 
-baseurl: "rubyconftw2021.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rubyconftw
 # github_username:  jekyll

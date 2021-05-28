@@ -6,10 +6,10 @@ layout: home
   <!-- News Section -->
   <div class='pb-5 text-center block-title' id='News'>News</div>
   <div class='mb-5 d-flex flex-column deco2' id='news-container'>
-    {% for each in site.news reversed %}
+    {% for each in site.data.news %}
 
-    <!-- News modal togglers -->
-    <a href="{{site.baseurl}}/news/{{each.slug}}">
+    <!-- News togglers -->
+    <a href="{{each.link}}">
       <div class='content-block py-4 d-flex news-block'>
         <div class='col-2 text-center'>{{each.time}}</div>
         <div class='col-10'>{{each.title}}</div>
@@ -51,11 +51,11 @@ layout: home
     </div>
   </div>
 </div>
-<div id='schedule-container'></div>
 <div class="container">
   <!-- Schedule Section -->
   <div class='px-7 pb-5 mt-5' id='schedule-section'>
-    <div class='text-center block-title' id='Schedule'>Schedule</div>
+    <!-- <div id='schedule-container'></div> -->
+    <div class='text-center block-title' id='schedule'>Schedule</div>
     <div class='content-block py-4 d-flex row text-center'>
       <div class='col-2 text-center'>Start</div>
       <div class='col-2 text-center'>End</div>

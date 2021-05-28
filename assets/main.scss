@@ -135,7 +135,7 @@ body {
   font-weight: bold;
 }
 
-.deco2{
+.deco2 {
   background-image: url(deco2.svg);
   background-position: 0 100;
   background-repeat: no-repeat;
@@ -144,28 +144,29 @@ body {
 #news-container {
   border-bottom: solid 1px #730000;
 }
-#speaker-container{
+#speaker-container {
   background-image: url(deco-speaker.svg);
   background-position: 0 400;
   background-repeat: no-repeat;
 }
-#schedule-section{
-  padding-top: 3rem;
+#schedule-section {
+  // padding-top: 3rem;
   background-image: url(deco-schedule1.svg);
   background-position: 0 500;
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100%!important;
+  width: 100% !important;
 }
-#schedule-container{
-  padding-top: 3rem;
+#schedule {
+  padding-top: 10rem!important;
   background-image: url(deco-schedule.svg);
-  background-position: 0 -30;
+  background-position: center;
+  background-size: 100%;
+  background-size: 1;
+  /* position: absolute; */
+  width: 100% !important;
+  /* height: 30rem !important; */
   background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%!important;
-  height: 55%!important;
 }
 
 li {
@@ -215,7 +216,7 @@ footer {
 .content-block {
   font-family: "Malayalam MN";
   color: #730000 !important;
-  z-index: 2200!important;
+  z-index: 2200 !important;
   border-top: solid 1px;
 }
 
@@ -225,11 +226,11 @@ footer {
 .agenda-content:hover,
 .news-block:hover {
   cursor: pointer;
-  color: #E50038 !important;
+  color: #e50038 !important;
   border-color: #730000;
 }
 
-.deco1{
+.deco1 {
   background-image: url(deco1.svg);
   background-position: 0 100;
   background-repeat: no-repeat;
@@ -344,8 +345,8 @@ button:focus {
   border-radius: 3rem !important;
 }
 
-.modal-body{
-  color: #7A6262;
+.modal-body {
+  color: #7a6262;
   font-family: "Malayalam MN";
 }
 
