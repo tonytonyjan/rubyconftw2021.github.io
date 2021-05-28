@@ -126,7 +126,7 @@ body {
     rgba(246, 189, 173, 0) 90%,
     rgba(250, 217, 199, 0) 100%
   );
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
 }
 .block-title,
 .brown-text,
@@ -182,12 +182,12 @@ a:hover {
 .home-text {
   position: absolute;
   top: 50%;
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
   font-size: 25px;
 }
 
 footer {
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
   background: url(footer.svg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -204,11 +204,11 @@ footer {
   font-size: 28px;
   padding-top: 7rem !important;
   padding-bottom: 3rem !important;
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
 }
 
 .content-block {
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
   color: #730000 !important;
   z-index: 2200 !important;
   border-top: solid 1px;
@@ -232,7 +232,7 @@ footer {
 
 .news-content {
   font-size: 19px !important;
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
   color: #7a6262 !important;
 }
 
@@ -303,7 +303,7 @@ button:focus {
   margin: 0rem 3rem 3rem !important;
   transition: all 0.5s !important;
   height: 250px;
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
 }
 
 .avatar {
@@ -342,7 +342,7 @@ button:focus {
 
 .modal-body {
   color: #7a6262;
-  font-family: "Malayalam MN";
+  font-family: 'Marmelad', sans-serif;
 }
 
 #cocModal > div > div > div.modal-body,
@@ -373,6 +373,9 @@ body > footer > div:nth-child(2) > li{
   cursor: pointer;
 }
 
+.fade{
+  transition:all 0.5s!important;
+}
 
 @media only screen and (max-width: 767px) {
   body {
@@ -501,7 +504,7 @@ body > footer > div:nth-child(2) > li{
   footer {
     flex-direction: column !important;
     padding: 0 2rem 5rem !important;
-    font-family: "Malayalam MN";
+    font-family: 'Marmelad', sans-serif;
     background: url(footer-m.svg);
     background-repeat: no-repeat;
     background-size: 100%;
