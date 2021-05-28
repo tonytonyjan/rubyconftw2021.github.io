@@ -373,6 +373,9 @@ body > footer > div:nth-child(2) > li{
   cursor: pointer;
 }
 
+.fade{
+  transition:all 0.5s!important;
+}
 
 @media only screen and (max-width: 767px) {
   body {
