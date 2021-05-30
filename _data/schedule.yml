@@ -1,6 +1,10 @@
 - id: 0
   speaker: "Yukihiro Matsumoto (Matz)"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/matz.jpg"
+  time: 16:00 pm
+  end: 16:30 pm
+  description_en: |-
+  description_zh: |- 
 
 - id: 1
   day: 1
@@ -16,7 +20,7 @@
   subtitle: "Rails 容器化最佳實踐"
   title_main: "Dockerize Rails Best Practice"
   speaker: "Cindy Liu"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/cindyliu.jpg"
   lang: "zh"
   description_en: |-
     In recent years, Container technology has gradually became the mainstream choice of development and deployment. In the DevOps plan of 5xRuby software development, we have designed the best practice for packaging images with GitLab CI. In this speech, I will share how we containerize a Rails application and make a container image with the size of 100MB for Production Ready.
@@ -36,7 +40,7 @@
   agenda: 2
   title_main: "Event Driven Concurrency using the Ruby Fiber Scheduler"
   speaker: "Samuel Williams"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/ioquatix.jpg"
   lang: 'en'
   description_en: |-
     Event driven concurrency is a feature of many modern programming languages, but until recently was difficult to use with Rub y. Ru by 3 includes a new fiber scheduler interface which allows us to hook into non-blocking operations and execute them concurrently, however robust implementations of this interface are not yet widely available. We will discuss the implementation of the Async fiber scheduler, how it works and how it can be used to build highly scalable applications.
@@ -57,7 +61,7 @@
   subtitle: "三寶 GO - 不收費、不收個資、不告人的交通違規檢舉系統"
   title_main: "Sanbao GO, A Free Traffic Violation Reporting System that Concerns Privacy"
   speaker: "tonytonyjan"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/tonytonyjan.jpg"
   lang: "zh"
   description_en: |-
     Sanbao GO is a PWA powered by Ruby on Rails and React. We create it since 2019 because of the disappointment to the system made by the government and non-government.
@@ -81,8 +85,8 @@
   agenda: 4
   subtitle: "Rina: 聊天機器人體驗型遊戲引擎 & 實際案例分享"
   title_main: "Rina: Chatbot Game Engine for Real-life Adventure Games & Case Study"
-  speaker: "Albert Song"
-  avatar: "/assets/logo_black.svg"
+  speaker: "Albert Song & Tim Wei"
+  avatar: "/assets/speaker_avatars/albb0920.png"
   lang: 'en'
   description_en: |-
     Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game "1337 Operation".<br>
@@ -118,7 +122,7 @@
   subtitle: "從 Ruby 寫到 Python，遊戲設計師到工程師的職場生存術"
   title_main: "From Ruby To Python, From Game Designer To Software Developer"
   speaker: "Jimmy Wu"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/jimmy2822.jpg"
   lang: "zh"
   description_en: |-
     Review: Learning Ruby and Ruby On Rails for a career change from a game designer to becoming a software developer. Using Python In order to fulfill the needs of the client and develop b2b EDI System. The talk is for the beginners of learning to code or just start to code recently as a job
@@ -139,7 +143,7 @@
   subtitle: "Ruby on Rails 老司機帶飛"
   title_main: "An experienced Rails driver takes you fly"
   speaker: "ihower"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/ihower.jpg"
   lang: "zh"
   description_en: |-
     An experienced developer(15y) shares his Rails project experience for small team. Topics including: 
@@ -171,7 +175,7 @@
   subtitle: "用 Python 來執行 Ruby 的我，與撿到的 Puma 和 Rack"
   title_main: "Intro of Ruby CGI programming, Rack and Puma"
   speaker: "Meng-Ying Tsai"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/fumitsuki.png"
   lang: "zh"
   description_en: |-
     The Rails beginners might curious: "What is rack in ruby? What is puma in ruby?"
@@ -195,7 +199,7 @@
   agenda: 11
   title_main: "Ruby in the Classroom: Going off the Rails with Roda and Sequel"
   speaker: "Soumya Ray"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/soumyaray.jpg"
   lang: 'en'
 
 - id: 16
@@ -209,13 +213,12 @@
   time: 11:30 am
   end: 12:30 pm
   agenda: Panel
-  # subtitle: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
-  title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
-  speaker: "范聖佑"
+  title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事 / Panel Discussion: The Developer Community vs. the Short Supply of Senior Developers"
+  speaker: "鄧慕凡、范聖佑、Caesar Chi、蘇芃翰"
   avatar: "/assets/logo_black.svg"
   lang: "zh"
   description_en: |-
-    TBA
+    In recent years, Taiwan has attracted a lot of global companies due to political and economical reasons. We have also seen a surge of oversea entrepreneurs setting base here since the pandemic. This trend has put senior developers in high demand but short supply. Ruby Taiwan invites leaders of the PHP, Javascript and Java communities, who are also business owners themselves, to talk about how we as the developer community should face these challenges.
   description_zh: |-
     近年因為各種政情、經濟因素，非常多的外商大舉進入台灣徵才，加上去年以來有很多創業者來台躲避疫情，以上因素皆造成高階軟體工程師需求急速高漲，供不應求的現象，本次座談由 Ruby Taiwan 社群發起，邀請了 PHP、Javascript 與 Java 社群的領袖，共同討論技術社群面對以上情況，我們可以做什麼？
 
@@ -233,7 +236,7 @@
   subtitle: "用 mruby 來寫跨平台工具"
   title_main: "Making Multi-platform Tool With mruby"
   speaker: "John Lin"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/johnlinvc.jpg"
   lang: 'en'
   description_en: |-
     Deployment is one of the biggest issue when developing tools with Ruby. Due to the interpreter nature of Ruby, we need to bundle interpreter and all dependencies with our code when deploying. It's troublesome to deploy tons of stuffs. Is there a better way to deploy?
@@ -260,7 +263,7 @@
   subtitle: "2021 年 Ruby 高並行程式指北"
   title_main: "Ruby High Concurrent Programming in 2021"
   speaker: "Delton Ding"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/DeltonDing.png"
   lang: "zh"
   description_en: |-
     - The Sufficient and Necessary Conditions in High Concurrency Program
@@ -291,7 +294,7 @@
   subtitle: "以 LINE BOT 和爬蟲聊寫程式技巧中的「巧」"
   title_main: "Talk the \"tricks\" of programming skill with the LINE Bot and the crawl"
   speaker: "蒼時弦也"
-  avatar: "/assets/logo_black.svg"
+  avatar: "/assets/speaker_avatars/elct9620.jpg"
   lang: "zh"
   description_en: |-
     When I write some code, I usually think about "can I do it better?" since my over 10 years of programming life. I use Ruby to write a simple LINE Bot with many Ruby language features to help me to find new movies as I need. Therefore I think about how can we use the "tricks" to let others feel the programming is very "simple" after we learned the programming skills.
