@@ -1,11 +1,15 @@
 - id: 0
   speaker: 
     - name: "Yukihiro Matsumoto (Matz)"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/matz.jpg"
   time: 16:00 pm
   end: 16:30 pm
   description_en: |-
   description_zh: |- 
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
 
 - id: 1
   day: 1
@@ -22,7 +26,11 @@
   title_main: "Dockerize Rails Best Practice"
   speaker: 
     - name: "Cindy Liu"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/cindyliu.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     In recent years, Container technology has gradually became the mainstream choice of development and deployment. In the DevOps plan of 5xRuby software development, we have designed the best practice for packaging images with GitLab CI. In this speech, I will share how we containerize a Rails application and make a container image with the size of 100MB for Production Ready.
@@ -43,7 +51,11 @@
   title_main: "Event Driven Concurrency using the Ruby Fiber Scheduler"
   speaker: 
     - name: "Samuel Williams"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/ioquatix.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: 'en'
   description_en: |-
     Event driven concurrency is a feature of many modern programming languages, but until recently was difficult to use with Rub y. Ru by 3 includes a new fiber scheduler interface which allows us to hook into non-blocking operations and execute them concurrently, however robust implementations of this interface are not yet widely available. We will discuss the implementation of the Async fiber scheduler, how it works and how it can be used to build highly scalable applications.
@@ -65,7 +77,11 @@
   title_main: "Sanbao GO, A Free Traffic Violation Reporting System that Concerns Privacy"
   speaker: 
     - name: "tonytonyjan"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/tonytonyjan.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     Sanbao GO is a PWA powered by Ruby on Rails and React. We create it since 2019 because of the disappointment to the system made by the government and non-government.
@@ -90,8 +106,13 @@
   subtitle: "Rina: 聊天機器人體驗型遊戲引擎 & 實際案例分享"
   title_main: "Rina: Chatbot Game Engine for Real-life Adventure Games & Case Study"
   speaker: 
+<<<<<<< HEAD
     - name: "Albert Song & Tim Wei"
       avatar: "/assets/speaker_avatars/albb0920.png"
+=======
+    - name: "Albert Song"
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: 'en'
   description_en: |-
     Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game "1337 Operation".<br>
@@ -128,7 +149,11 @@
   title_main: "From Ruby To Python, From Game Designer To Software Developer"
   speaker: 
     - name: "Jimmy Wu"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/jimmy2822.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     Review: Learning Ruby and Ruby On Rails for a career change from a game designer to becoming a software developer. Using Python In order to fulfill the needs of the client and develop b2b EDI System. The talk is for the beginners of learning to code or just start to code recently as a job
@@ -150,7 +175,17 @@
   title_main: "An experienced Rails driver takes you fly"
   speaker: 
     - name: "ihower"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/ihower.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+    - name: "A"
+      avatar: "/assets/logo_black.svg"
+    - name: "B"
+      avatar: "/assets/logo_black.svg"
+    - name: "C"
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     An experienced developer(15y) shares his Rails project experience for small team. Topics including: 
@@ -183,7 +218,11 @@
   title_main: "Intro of Ruby CGI programming, Rack and Puma"
   speaker: 
     - name: "Meng-Ying Tsai"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/fumitsuki.png"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     The Rails beginners might curious: "What is rack in ruby? What is puma in ruby?"
@@ -208,7 +247,11 @@
   title_main: "Ruby in the Classroom: Going off the Rails with Roda and Sequel"
   speaker: 
     - name: "Soumya Ray"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/soumyaray.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: 'en'
 
 - id: 16
@@ -223,6 +266,7 @@
   end: 12:30 pm
   agenda: Panel
   title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
+<<<<<<< HEAD
   subtitle: "Panel Discussion: The Developer Community vs. the Short Supply of Senior Developers"
   speaker: 
     - name: "鄧慕凡"
@@ -233,6 +277,11 @@
       avatar: "/assets/logo_black.svg"
     - name: "蘇芃翰"
       avatar: "/assets/logo_black.svg"
+=======
+  speaker: 
+    - name: "范聖佑"
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     In recent years, Taiwan has attracted a lot of global companies due to political and economical reasons. We have also seen a surge of oversea entrepreneurs setting base here since the pandemic. This trend has put senior developers in high demand but short supply. Ruby Taiwan invites leaders of the PHP, Javascript and Java communities, who are also business owners themselves, to talk about how we as the developer community should face these challenges.
@@ -254,7 +303,11 @@
   title_main: "Making Multi-platform Tool With mruby"
   speaker: 
     - name: "John Lin"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/johnlinvc.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: 'en'
   description_en: |-
     Deployment is one of the biggest issue when developing tools with Ruby. Due to the interpreter nature of Ruby, we need to bundle interpreter and all dependencies with our code when deploying. It's troublesome to deploy tons of stuffs. Is there a better way to deploy?
@@ -282,7 +335,11 @@
   title_main: "Ruby High Concurrent Programming in 2021"
   speaker: 
     - name: "Delton Ding"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/DeltonDing.png"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     - The Sufficient and Necessary Conditions in High Concurrency Program
@@ -314,7 +371,11 @@
   title_main: "Talk the \"tricks\" of programming skill with the LINE Bot and the crawl"
   speaker: 
     - name: "蒼時弦也"
+<<<<<<< HEAD
       avatar: "/assets/speaker_avatars/elct9620.jpg"
+=======
+      avatar: "/assets/logo_black.svg"
+>>>>>>> 57eb7ad5cba6dcf030662ed033b17720242f0b9d
   lang: "zh"
   description_en: |-
     When I write some code, I usually think about "can I do it better?" since my over 10 years of programming life. I use Ruby to write a simple LINE Bot with many Ruby language features to help me to find new movies as I need. Therefore I think about how can we use the "tricks" to let others feel the programming is very "simple" after we learned the programming skills.
