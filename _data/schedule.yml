@@ -91,8 +91,8 @@
   speaker:
     - name: "Albert Song"
       avatar: "/assets/speaker_avatars/albb0920.jpg"
-    - name: "TimWei"
-      avatar: "/assets/speaker_avatars/albb0920.jpg"
+    - name: "Tim Wei"
+      avatar: "/assets/speaker_avatars/aaasdslee.jpg"
   lang: 'en'
   description_en: |-
     Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game "1337 Operation".<br>
