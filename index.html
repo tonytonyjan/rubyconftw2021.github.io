@@ -26,12 +26,14 @@ layout: home
     <div class='d-flex flex-wrap justify-content-center px-7'>
       {% for each in site.data.schedule %}
       {% if each.speaker %}
+      {% for s in each.speaker%}
       <!-- Speaker modal togglers -->
       <div class='text-center speaker-box d-flex flex-column justify-content-center align-items-center'
         data-bs-toggle="modal" data-bs-target="#scheduleModal{{each.id}}">
-        <img class='avatar' src="{{each.avatar}}" height='200' width='200' />
-        <div class='mt-3'>{{each.speaker}}</div>
+        <img class='avatar' src="{{s.avatar}}" height='200' width='200' />
+        <div class='mt-3'>{{s.name}}</div>
       </div>
+      {% endfor %}
       {% endif %}
       {% endfor %}
     </div>
@@ -96,9 +98,11 @@ layout: home
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
       <div class='col-8 text-center'>
-        <div class='mb-3'><img src='{{each.avatar}}' width="100" height="100" class="avatar"/></div>
+        <div class='mb-3 d-flex justify-content-around' style='margin:0 auto'>{% for s in each.speaker %}<div><img class="avatar" 
+              src='{{s.avatar}}' width="100" height="100" />
+            <div style='margin-top:10px;''>{{s.name}}</div>
+          </div>{% endfor %}</div>
         <div class='talk-title'>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
-        <div style='margin-top:10px'>{{each.speaker}}</div>
         <span class='badge'>{{each.lang}}</span>
       </div>
     </div>
@@ -118,7 +122,7 @@ layout: home
               </div>
               <div class="col-lg-7">
                 <h4>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</h4>
-                <div class="mt-3 text-center"><img src="/assets/logo_red.svg" width="150" height="150"/></div>
+                <div class="mt-3 text-center"><img src="/assets/logo_red.svg" width="150" height="150"  class="avatar" /></div>
                 <div class='my-4'>{{each.description_en}}</div>
                 <div>{{each.description_zh}}</div>
               </div>
@@ -155,9 +159,10 @@ layout: home
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
       <div class='col-8 text-center'>
-        <div class='mb-3'><img src='{{each.avatar}}' width="100" height="100" class="avatar"/></div>
+        <div class='mb-3'>{% for s in each.speaker %}<img class="avatar" src='{{s.avatar}}' width="100" height="100" />{% endfor %}
+        </div>
         <div class='talk-title'>{{each.title_main}}{% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
-        <div style='margin-top:10px'>{{each.speaker}}</div>
+        <div style='margin-top:10px'>{% for s in each.speaker %}{{s.name}}{% endfor %}</div>
         <span class='badge'>{{each.lang}}</span>
       </div>
     </div>
@@ -223,10 +228,12 @@ layout: home
   <!-- Sponsors Section -->
   <div class='deco2' style="background-position:0">
     <div class='text-center block-title brown-text ' id='Sponsors'>Sponsors</div>
-    <div class='sponsors text-center' style='margin-bottom:6rem!important;font-family: "Tamil MN", "Marmelad", sans-serif; color:#A66F5E'>We
+    <div class='sponsors text-center'
+      style='margin-bottom:6rem!important;font-family: "Tamil MN", "Marmelad", sans-serif; color:#A66F5E'>We
       are
       calling for
       sponsors, please contact
-      <a href='mailto:contact@rubyconf.tw' target="_blank">sponsorship@coscup.org</a></div>
+      <a href='mailto:contact@rubyconf.tw' target="_blank">sponsorship@coscup.org</a>
+    </div>
   </div>
 </div>
