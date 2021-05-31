@@ -222,7 +222,8 @@
   time: 11:30 am
   end: 12:30 pm
   agenda: Panel
-  title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事 / Panel Discussion: The Developer Community vs. the Short Supply of Senior Developers"
+  title_main: "面對快速高漲的高階工程師人才需求，技術社群可以做的事"
+  subtitle: "Panel Discussion: The Developer Community vs. the Short Supply of Senior Developers"
   speaker: 
     - name: "鄧慕凡"
       avatar: "/assets/logo_black.svg"
