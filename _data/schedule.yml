@@ -87,8 +87,10 @@
   subtitle: "Rina: 聊天機器人體驗型遊戲引擎 & 實際案例分享"
   title_main: "Rina: Chatbot Game Engine for Real-life Adventure Games & Case Study"
   speaker:
-    - name: "Albert Song & Tim Wei"
-      avatar: "/assets/speaker_avatars/albb0920.png"
+    - name: "Albert Song"
+      avatar: "/assets/speaker_avatars/albb0920.jpg"
+    - name: "TimWei"
+      avatar: "/assets/speaker_avatars/albb0920.jpg"
   lang: 'en'
   description_en: |-
     Rina is a chatbot game engine developed for CYBERSEC 2021 playground booth adventure game "1337 Operation".<br>
@@ -180,7 +182,7 @@
   title_main: "Intro of Ruby CGI programming, Rack and Puma"
   speaker:
     - name: "Meng-Ying Tsai"
-      avatar: "/assets/speaker_avatars/fumitsuki.png"
+      avatar: "/assets/speaker_avatars/fumitsuki.jpg"
   lang: "zh"
   description_en: |-
     The Rails beginners might curious: "What is rack in ruby? What is puma in ruby?"
@@ -223,13 +225,13 @@
   subtitle: "Panel Discussion: The Developer Community vs. the Short Supply of Senior Developers"
   speaker:
     - name: "鄧慕凡"
-      avatar: "/assets/logo_black.svg"
+      avatar: "/assets/speaker_avatars/ryudoawaru.jpg"
     - name: "范聖佑"
-      avatar: "/assets/logo_black.svg"
+      avatar: "/assets/speaker_avatars/shengyoufan.jpg"
     - name: "Caesar Chi"
-      avatar: "/assets/logo_black.svg"
+      avatar: "/assets/speaker_avatars/caesarchi.jpg"
     - name: "蘇芃翰"
-      avatar: "/assets/logo_black.svg"
+      avatar: "/assets/speaker_avatars/phsu.jpg"
   lang: "zh"
   description_en: |-
     In recent years, Taiwan has attracted a lot of global companies due to political and economical reasons. We have also seen a surge of oversea entrepreneurs setting base here since the pandemic. This trend has put senior developers in high demand but short supply. Ruby Taiwan invites leaders of the PHP, Javascript and Java communities, who are also business owners themselves, to talk about how we as the developer community should face these challenges.
@@ -279,7 +281,7 @@
   title_main: "Ruby High Concurrent Programming in 2021"
   speaker:
     - name: "Delton Ding"
-      avatar: "/assets/speaker_avatars/DeltonDing.png"
+      avatar: "/assets/speaker_avatars/DeltonDing.jpg"
   lang: "zh"
   description_en: |-
     - The Sufficient and Necessary Conditions in High Concurrency Program
