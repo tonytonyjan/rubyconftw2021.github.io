@@ -119,8 +119,10 @@ layout: home
           <div class="modal-body">
             <div class="row">
               <div class="col-lg-5 d-flex flex-column justify-content-center text-center">
-                <img class='avatar' src="{{each.avatar}}" height='150' width='150' style='margin: 0 auto;' />
-                <div class="mt-4">{{each.speaker}}</div>
+                {% for s in each.speaker%}
+                <div class="mt-4"><img class='avatar' src="{{s.avatar}}" height='150' width='150' style='margin: 0 auto;' />
+                <div class="mt-4">{{s.name}}</div></div>
+                {% endfor %}
               </div>
               <div class="col-lg-7">
                 <h4>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</h4>
@@ -161,10 +163,11 @@ layout: home
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
       <div class='col-8 text-center'>
-        <div class='mb-3'>{% for s in each.speaker %}<img src='{{s.avatar}}' width="100" height="100" />{% endfor %}
-        </div>
-        <div class='talk-title'>{{each.title_main}}{% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
-        <div style='margin-top:10px'>{% for s in each.speaker %}{{s.name}}{% endfor %}</div>
+        <div class='mb-3 d-flex justify-content-around' style='margin:0 auto'>{% for s in each.speaker %}<div><img
+              src='{{s.avatar}}' width="100" height="100" />
+            <div style='margin-top:10px;''>{{s.name}}</div>
+          </div>{% endfor %}</div>
+        <div class='talk-title'>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</div>
         <span class='badge'>{{each.lang}}</span>
       </div>
     </div>
@@ -179,8 +182,10 @@ layout: home
           <div class="modal-body">
             <div class="row">
               <div class="col-lg-5 d-flex flex-column justify-content-center text-center">
-                <img class='avatar' src="{{each.avatar}}" height='150' width='150' style='margin: 0 auto;' />
-                <div class="mt-4">{{each.speaker}}</div>
+                {% for s in each.speaker%}
+                <div class="mt-4"><img class='avatar' src="{{s.avatar}}" height='150' width='150' style='margin: 0 auto;' />
+                <div class="mt-4">{{s.name}}</div></div>
+                {% endfor %}
               </div>
               <div class="col-lg-7">
                 <h4>{{each.title_main}} {% if each.subtitle %} /<br> {{each.subtitle}}{% endif %}</h4>
