@@ -68,11 +68,11 @@
   lang: "zh"
   description_en: |-
     Sanbao GO is a PWA powered by Ruby on Rails and React. We create it since 2019 because of the disappointment to the system made by the government and non-government.
-    This session would cover a brief introduction of the problem and current situation about the government’s reporting system, and the implementation details of Sanbao GO including its architecture design, mechanisms and tests.
+    This session would cover a brief introduction of the problem and current situation of the government’s reporting system, and the implementation details of Sanbao GO including email processing using Action Mailbox.
     https://www.sanbao.icu/
   description_zh: |-
-    三寶 GO 是因筆者多年來對政府和民間檢舉系統的失望而產生的作品，是一個 PWA，技術基礎使用了 Ruby on Rails 和 React，由兩人團隊自 2019 以來淬鍊而成。
-    本議程將介紹政府檢舉系統的現況與問題，以及揭露三寶 GO 的技術細節，包括軟體架構、設計巧思以及測試撰寫等。此外還有筆者在過程中學到的經驗，例如 ActionStorage 和 ActionMailbox 的使用與 bug。
+    三寶 GO 是因筆者多年來對政府和民間檢舉系統的失望而產生的作品，是一個 PWA，技術基礎使用了 Ruby on Rails 和 React，由兩人強力蕉團隊自 2019 以來淬鍊而成。
+    本議程將介紹政府檢舉系統的現況與問題，並介紹三寶 GO 在實作過程中遇到困難，包括信件編碼問題與 Rails ActionMailer 的使用。
     https://www.sanbao.icu/
 
 - id: 7
