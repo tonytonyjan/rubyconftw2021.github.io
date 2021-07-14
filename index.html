@@ -94,7 +94,7 @@ layout: home
     {% if each.day == 1 %}
     {% if each.title_main %}
     <!-- Schedule modal togglers -->
-    <div class='content-block py-4 d-flex row align-items-center agenda-content' data-bs-toggle="modal"
+    <div id='session-{{each.id}}' class='content-block py-4 d-flex row align-items-center agenda-content' data-bs-toggle="modal"
       data-bs-target="#scheduleModal{{each.id}}">
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
@@ -166,7 +166,7 @@ layout: home
     {% if each.day == 2 %}
     {% if each.title_main %}
     <!-- Schedule modal togglers -->
-    <div class='content-block py-4 d-flex row align-items-center agenda-content' data-bs-toggle="modal"
+    <div id='session-{{each.id}}' class='content-block py-4 d-flex row align-items-center agenda-content' data-bs-toggle="modal"
       data-bs-target="#scheduleModal{{each.id}}">
       <div class='col-2 text-center'>{{each.time}}</div>
       <div class='col-2 text-center'>{{each.end}}</div>
